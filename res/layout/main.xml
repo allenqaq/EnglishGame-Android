@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <ScrollView  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" >  
+	 <LinearLayout
+        android:orientation="vertical"     
+        android:layout_width="wrap_content"     
+        android:layout_height="fill_parent">
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="
+\n\n1. Describe one of the most important inventions in recent100 years. Explain why it is so important. Your explanation shouldinclude specific examples and details.
+\n\n2. Some believe that in comparison with those neverattended college, people attended college will be moresuccessful in career. Do you agree or disagree with thisstatement? Please give specific reasons for your opinion.
+\n\n3. Describe the characteristics of friends, use specificexamples to support your statement.
+\n\n3. Someone suggests school to cut the Recycling. Do youagree or disagree with this suggestion, explain why.
+\n\n4. To be a leader or a follower, which do you prefer? Pleasegive your opinion with specific examples and details.\n\n">
+        	
+    </TextView>
+    
+	<LinearLayout 
+		android:orientation="horizontal" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<ImageButton 
+			android:id="@+id/record"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:src="@drawable/record" />
+		<ImageButton 
+			android:id="@+id/stop" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/stop" />
+	</LinearLayout>
+	<TextView 
+		android:id="@+id/info" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="文字提示信息..." />
+	<ListView 
+		android:id="@+id/reclist" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+	 <Button
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="OnBackSpeak"  
+			android:text="BACK"/>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

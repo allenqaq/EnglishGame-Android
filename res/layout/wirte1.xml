@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical" >  
+      
+    <ScrollView    
+    android:layout_width="fill_parent"    
+    android:layout_height="wrap_content">    
+      
+    <LinearLayout  
+        android:orientation="vertical"       
+        android:layout_width="wrap_content"       
+        android:layout_height="fill_parent">  
+      
+        <TextView  
+        	android:layout_width="wrap_content"  
+        	android:layout_height="wrap_content"  
+        	android:text="\n题目：　Does technology make children less creative than in the past?\n\n">  
+    	</TextView>  
+          
+    	<TextView  
+        	android:layout_width="wrap_content"  
+        	android:layout_height="wrap_content"  
+        	android:text="    Are our kids becoming lazier and less creative, less imaginable than before as a consequence of highly advanced technology? My answer is no, and just the opposite, technology has apparently assisted our kids to become more creative.\n\n    First and foremost, technology has provided children with easy access to scientific and liberal art resources which is their best source of inspiration. For example, children could now easily gain access to academic databases through iPad screen, read classical works on Kindle, or watch historic documents on Internet. These great works are essentially helpful to arousing their curiosity and prepares them with key knowledge necessary for any creation. However, these wonderful equipments and facilities are never as handy in the past, when kids could only reach limited resources in public libraries or schools. In this sense, technology has provided the possibility for children to be more creative.\n\n    Second, technology has equipped children with professional apparatus which could finally realize their imagination. This takes form particularly as computer softwares and applications, such as Photoshop for creative graphic design, Overture for easily composing a piece of music, 3DMax for building up a virtual world, etc.. All the software were never as handy as they are at present, and this would absolutely provides our children an effective tool for realizing their creativity.\n\n    However, it is undeniable that technology might make children become lazier and be comfortable with what is already available because everything are so convenient nowadays and there seems to be no way to improve them. Children lost in pc games or blindly pursuing every single piece of tech apparatus is a relevant example. Thus, it is always necessary to keep children’s mind active in the marvelous world of technology.\n\n">  
+        	  
+    	</TextView>  
+    	<Button  
+            android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"  
+			android:onClick="OnWrite1"  
+			android:text="BACK"/>  
+ </LinearLayout>  
+    </ScrollView>  
+</LinearLayout>  

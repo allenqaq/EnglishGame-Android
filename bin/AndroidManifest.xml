@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.englishgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Learn"/>
+        <activity android:name=".ListenList"/>
+        <activity android:name=".Listen1"/>
+        <activity android:name=".LisAnw1"/>
+        <activity android:name=".DataDeal"/>
+        <activity android:name=".L1_Result"/>
+        <activity android:name=".read1"/>
+        <activity android:name=".ReadList"/>
+        <activity android:name=".Read_result1"/>
+        <activity android:name=".SpeakList"/>
+        <activity android:name=".MyMediaRecorderDemo"/>
+        <activity android:name=".WritteList"/>
+        <activity android:name=".Write1"/>
+        <activity android:name=".level"/>
+        <activity android:name=".level1"/>
+        <activity android:name=".Shop"/>
+        <activity android:name=".Show"/>
+        <activity android:name=".lvl21"/>
+        <activity android:name=".lvl22"/>
+        <activity android:name=".lvl3"/>
+    </application>
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

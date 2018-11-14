@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <Button
+        	android:id="@+id/Read1"
+        	android:onClick="OnRead1" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="阅读材料1"
+            android:textSize="15sp" />
+        
+        <Button
+        	android:id="@+id/Read2"
+        	android:onClick="OnRead2" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="阅读材料2"
+            android:textSize="15sp" />
+        
+        <Button
+        	android:id="@+id/Read3"
+        	android:onClick="OnRead3" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="阅读材料3"
+            android:textSize="15sp" />
+     </LinearLayout>
+
+</LinearLayout>

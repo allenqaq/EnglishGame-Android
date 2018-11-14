@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView  
+    	android:layout_width="fill_parent"  
+    	android:layout_height="wrap_content">  
+    	
+        <LinearLayout
+        	android:orientation="vertical"     
+        	android:layout_width="fill_parent"     
+        	android:layout_height="wrap_content">
+        	
+            <TextView
+            android:id="@+id/rest"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text=""/>
+            
+            <LinearLayout
+        		android:orientation="horizontal"    
+        		android:layout_width="fill_parent"  
+        		android:gravity="center_horizontal|center_vertical"   
+        		android:layout_height="wrap_content">
+        	
+                 <ImageView
+                    android:layout_weight="1"
+        			android:layout_height="wrap_content"
+       				android:layout_width="wrap_content"
+       			 	android:src="@drawable/levelup"/>
+            	
+                 <TextView
+                    android:layout_weight="1"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="获得：100点经验\n花费：100点积分"/>
+                 
+        
+                  <Button
+                     android:layout_weight="1"
+					 android:onClick="OnShopBLVL" 
+					 android:text="购买"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"/>
+                 
+  			</LinearLayout>
+        
+            <LinearLayout
+        		android:orientation="horizontal"    
+        		android:layout_width="fill_parent"  
+        		android:gravity="center_horizontal|center_vertical"   
+        		android:layout_height="wrap_content">
+        	
+                 <ImageView
+                    android:layout_weight="1"
+        			android:layout_height="wrap_content"
+       				android:layout_width="wrap_content"
+       			 	android:src="@drawable/xz1"/>
+            	
+                 <TextView
+                    android:layout_weight="1"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="萌萌的小勋章哟！\n花费：100点积分"/>
+                 
+        
+                  <Button
+                     android:layout_weight="1"
+					 android:onClick="OnShopxz1" 
+					 android:text="购买"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"/>
+                 
+  			</LinearLayout>
+  			
+            <LinearLayout
+        		android:orientation="horizontal"    
+        		android:layout_width="fill_parent"  
+        		android:gravity="center_horizontal|center_vertical"   
+        		android:layout_height="wrap_content">
+        	
+                 <ImageView
+                    android:layout_weight="1"
+        			android:layout_height="wrap_content"
+       				android:layout_width="wrap_content"
+       			 	android:src="@drawable/xz2"/>
+            	
+                 <TextView
+                    android:layout_weight="1"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="我超帅！\n花费：100点积分"/>
+                 
+        
+                  <Button
+                     android:layout_weight="1"
+					 android:onClick="OnShopzx2" 
+					 android:text="购买"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"/>
+                 
+  			</LinearLayout>
+  			
+            <LinearLayout
+        		android:orientation="horizontal"    
+        		android:layout_width="fill_parent"  
+        		android:gravity="center_horizontal|center_vertical"   
+        		android:layout_height="wrap_content">
+        	
+                 <ImageView
+                    android:layout_weight="1"
+        			android:layout_height="wrap_content"
+       				android:layout_width="wrap_content"
+       			 	android:src="@drawable/xz3"/>
+            	
+                 <TextView
+                    android:layout_weight="1"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="么么哒~\n花费：100点积分"/>
+                 
+        
+                  <Button
+                     android:layout_weight="1"
+					 android:onClick="OnShopxz3" 
+					 android:text="购买"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"/>
+                 
+  			</LinearLayout>
+  			
+            <LinearLayout
+        		android:orientation="horizontal"    
+        		android:layout_width="fill_parent"  
+        		android:gravity="center_horizontal|center_vertical"   
+        		android:layout_height="wrap_content">
+        	
+                 <ImageView
+                    android:layout_weight="1"
+        			android:layout_height="wrap_content"
+       				android:layout_width="wrap_content"
+       			 	android:src="@drawable/xz4"/>
+            	
+                 <TextView
+                    android:layout_weight="1"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="嘿！！嘿！！嘿！\n花费：100点积分"/>
+                 
+        
+                  <Button
+                     android:layout_weight="1"
+					 android:onClick="OnShopxz4" 
+					 android:text="购买"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"/>
+                 
+  			</LinearLayout>
+            
+            <Button
+					 android:onClick="OnShopxBack" 
+					 android:text="BACK"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"/>
+  		</LinearLayout>
+    </ScrollView>
+</LinearLayout>

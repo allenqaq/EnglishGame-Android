@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+	<HorizontalScrollView  
+    	android:layout_width="wrap_content"  
+    	android:layout_height="match_parent"> 
+    
+	    <FrameLayout 
+	        android:layout_width="wrap_content"  
+    		android:layout_height="fill_parent">
+
+	             <ImageView
+        			android:layout_height="match_parent"
+       				android:layout_width="wrap_content"
+       			 	android:src="@drawable/bg"
+        			android:scaleType="fitXY"/>
+	        
+	             <AbsoluteLayout
+	                 android:orientation="vertical" 
+	                 android:layout_width="fill_parent"
+					 android:layout_height="fill_parent">
+					 
+	                 <Button
+						android:id="@+id/level1icon"
+						android:onClick="Onlevel1icon" 
+						android:background="@drawable/l1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_x="270px" 
+						android:layout_y="500px"/>
+	                 
+	                 <Button
+						android:id="@+id/level2icon"
+						android:onClick="Onlevel2icon" 
+						android:background="@drawable/l2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_x="400px" 
+						android:layout_y="300px"/>
+	                 
+	                 <Button
+						android:id="@+id/level3icon"
+						android:onClick="Onlevel3icon" 
+						android:background="@drawable/l3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_x="600px" 
+						android:layout_y="200px"/>
+	                 
+	             </AbsoluteLayout>
+	             
+	    </FrameLayout>
+	    
+	</HorizontalScrollView>
+
+    
+</LinearLayout>

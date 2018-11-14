@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content">  
+    
+    <LinearLayout
+        android:orientation="vertical"     
+        android:layout_width="wrap_content"     
+        android:layout_height="fill_parent">
+    
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="　　\n    It has long been accepted that the Americas were colonized by a migration of peoples from Asia, slowly traveling across a land bridge called Beringia (now the Bering Strait between northeastern Asia and Alaska) during the last Ice Age. The first water craft theory about this migration was that around 11,000-12,000 years ago there was an ice-free corridor stretching from eastern Beringia to the areas of North America south of the great northern glaciers. It was this midcontinental corridor between two massive ice sheets–the Laurentide to the east and the Cordilleran to the west–that enabled the southward migration. But belief in this ice-free corridor began to crumble when paleoecologist Glen MacDonald demonstrated that some of the most important radiocarbon dates used to support the existence of an ice-free corridor were incorrect. He persuasively argued that such an ice-free corridor did not exist until much later, when the continental ice began its final retreat.\n\n　  　It has long been accepted that the Americas were colonized by a migration of peoples from Asia, slowly traveling across a land bridge called Beringia (now the Bering Strait between northeastern Asia and Alaska) during the last Ice Age. The first water craft theory about this migration was that around 11,000-12,000 years ago there was an ice-free corridor stretching from eastern Beringia to the areas of North America south of the great northern glaciers. It was this midcontinental corridor between two massive ice sheets–the Laurentide to the east and the Cordilleran to the west–that enabled the southward migration. But belief in this ice-free corridor began to crumble when paleoecologist Glen MacDonald demonstrated that some of the most important radiocarbon dates used to support the existence of an ice-free corridor were incorrect. He persuasively argued that such an ice-free corridor did not exist until much later, when the continental ice began its final retreat.\n\n　  　The most influential proponent of the coastal migration route has been Canadian archaeologist Knut Fladmark. He theorized that with the use of watercraft, people gradually colonized unglaciated refuges and areas along the continental shelf exposed by the lower sea level. Fladmark’s hypothesis received additional support form from the fact that the greatest diversity in native American languages occurs along the west coast of the Americas, suggesting that this region has been settled the longest.\n">
+        	
+    	</TextView>
+        
+        
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="1.Why does the student go to see the librarian?">
+        	
+    	</TextView>
+    	
+    	<RadioGroup 
+            android:id="@+id/LevelradioGroupR1_1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            > 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR1_1" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="A. To sign up for a seminar on using electronic sources for research " 
+               /> 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR1_2" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="B. To report that a journal is missing from the reference area" 
+               /> 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR1_3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="C. To find out the procedure for checking out journal articles" 
+               /> 
+              <RadioButton 
+                android:id="@+id/LevelradioBtnR1_4" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="D. To ask about how to look for resources for a class paper" 
+               /> 
+        </RadioGroup> 
+        
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="2.What does the librarian say about the availability of journals and articles in the library?">
+        	
+    	</TextView>
+    	
+    	<RadioGroup 
+            android:id="@+id/LevelradioGroupR1_2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            > 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR2_1" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="A. They are not easy to find if a professor put them on reserve" 
+               /> 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR2_2" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="B. Most of them are accessible in an electronic format " 
+               /> 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR2_3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="C. Most of them can be checked out for three weeks" 
+               /> 
+              <RadioButton 
+                android:id="@+id/LevelradioBtnR2_4" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="D. Printed versions from the past three years are located in the reference section" 
+               /> 
+        </RadioGroup> 
+    	
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="3.What does the librarian suggest the student should do to save time? ">
+        	
+    	</TextView>
+    	
+    	<RadioGroup 
+            android:id="@+id/LevelradioGroupR1_3" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            > 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR3_1" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="A. Choose an easier research topic" 
+               /> 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR3_2" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="B. Concentrate on five journals " 
+               /> 
+            <RadioButton 
+                android:id="@+id/LevelradioBtnR3_3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="C. Read the summaries of the articles first" 
+               /> 
+              <RadioButton 
+                android:id="@+id/LevelradioBtnR3_4" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="D. Install a new program on her home computer" 
+               /> 
+        </RadioGroup> 
+    	
+    	<Button
+            android:id="@+id/LevelbtnR1"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="OnLevelSubmitRead"  
+			android:text="提交"/>
+    	
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

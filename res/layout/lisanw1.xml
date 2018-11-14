@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <ScrollView  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content">  
+    
+    <LinearLayout
+        android:orientation="vertical"     
+        android:layout_width="wrap_content"     
+        android:layout_height="fill_parent">
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="1.Why does the student go to see the librarian?">
+        	
+    	</TextView>
+    	
+    	<RadioGroup 
+            android:id="@+id/radioGroupL1_1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            > 
+            <RadioButton 
+                android:id="@+id/radioBtnL1_1" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="A. To sign up for a seminar on using electronic sources for research " 
+               /> 
+            <RadioButton 
+                android:id="@+id/radioBtnL1_2" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="B. To report that a journal is missing from the reference area" 
+               /> 
+            <RadioButton 
+                android:id="@+id/radioBtnL1_3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="C. To find out the procedure for checking out journal articles" 
+               /> 
+              <RadioButton 
+                android:id="@+id/radioBtnL1_4" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="D. To ask about how to look for resources for a class paper" 
+               /> 
+        </RadioGroup> 
+        
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="2.What does the librarian say about the availability of journals and articles in the library?">
+        	
+    	</TextView>
+    	
+    	<RadioGroup 
+            android:id="@+id/radioGroupL1_2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            > 
+            <RadioButton 
+                android:id="@+id/radioBtnL2_1" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="A. They are not easy to find if a professor put them on reserve" 
+               /> 
+            <RadioButton 
+                android:id="@+id/radioBtnL2_2" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="B. Most of them are accessible in an electronic format " 
+               /> 
+            <RadioButton 
+                android:id="@+id/radioBtnL2_3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="C. Most of them can be checked out for three weeks" 
+               /> 
+              <RadioButton 
+                android:id="@+id/radioBtnL2_4" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="D. Printed versions from the past three years are located in the reference section" 
+               /> 
+        </RadioGroup> 
+    	
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="3.What does the librarian suggest the student should do to save time? ">
+        	
+    	</TextView>
+    	
+    	<RadioGroup 
+            android:id="@+id/radioGroupL1_3" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            > 
+            <RadioButton 
+                android:id="@+id/radioBtnL3_1" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="A. Choose an easier research topic" 
+               /> 
+            <RadioButton 
+                android:id="@+id/radioBtnL3_2" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="B. Concentrate on five journals " 
+               /> 
+            <RadioButton 
+                android:id="@+id/radioBtnL3_3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="C. Read the summaries of the articles first" 
+               /> 
+              <RadioButton 
+                android:id="@+id/radioBtnL3_4" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="D. Install a new program on her home computer" 
+               /> 
+        </RadioGroup> 
+    	
+    	<Button
+            android:id="@+id/btnL1"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="OnSubmit"  
+			android:text="提交"/>
+    	
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>
